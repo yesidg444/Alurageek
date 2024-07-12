@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&family=VT323&display=swap');
+
+.header {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    
+    
+}
+.menu__icons {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    font-family: VT323;
+    color: #fff;
+    font-size: 50px;
+}
+    
+.main-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+    padding: 40px;
+    box-shadow: var(--box-shadow);
+    font-family: VT323 ;
+    font-size: 35px;
+    text-align: center;
+    color: #3a0fe4;
+
+
+}
+.card{
+    margin-top: 40px;
+    border: 10px solid  #3a0fe4;
+    display: block;
+    width: 32%;
+    margin:auto;
+
+} 
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: var(--box-shadow);
+    background: var(--cor-background);
+    height: 15rem;
+    height: fit-content;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+} 
+.card-container--info{
+    font-family: VT323 ;
+    font-size: 20px;
+    text-align:center;
+    padding: 0 5px;
+}
+.form-container{
+    background: var(--cor-background);
+    padding: 20px;
+    margin: 0;
+    box-shadow: var(--box-shadow);
+    border: none;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--box-shadow);
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+.button-submit{
+    background-color: #3a0fe4;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.button-clear{
+    background-color: #3a0fe4;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.button-container :hover{
+    background: #9981fa;
+}
+.footer-container{ 
+    width: 100%;
+
+
+
+}
+.footer_icons{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: blueviolet;
+    font-family: VT323;
+    color: #fff;
+    font-size: 30px;
+    padding:  0 50px 20px 40px;
+}
+
+
+  
+    

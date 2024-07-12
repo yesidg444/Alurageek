@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="menu__icons">
+            <figure class="menu__icons-container">
+                <img class="menu__icon" src="https://img.icons8.com/?size=100&id=pWxEvv81GRVE&format=png&color=000000" alt="Icono 1">
+                <img class="menu__icon" src="https://img.icons8.com/?size=100&id=pWxEvv81GRVE&format=png&color=000000" alt="Icono 2">
+                <img class="menu__icon" src="https://img.icons8.com/?size=100&id=pWxEvv81GRVE&format=png&color=000000" alt="Icono 3">
+            </figure>
+            <h1 class="menu__title" >AluraGeek</h1>
+        </div>
+    </header>
+        <!--SECCION PRODUCTOS-->
+        <main class="main-container">
+        <section>
+        <h1>Mis productos</h1>
+        <div data-product class="products-container">
+           
+        </div>
+            </section>
+
+            <section>
+                <h1>Agregar producto:</h1>
+                <form class="form-container" data-form>
+                    <input data-name placeholder="nombre..." type="text">
+                    <input data-price placeholder="precio..." type="text">
+                    <input data-image placeholder="imagen..." type="text">
+
+                    <div class="button-container">
+                        <button type="submit" class="button-submit" id="button">Enviar...</button> 
+                        <button type="reset" class="button-clear" id="button">Limpiar...</button> 
+                    </div>
+                </form>
+            </section>
+         </main>
+         <footer class="footer-container">
+            <div class="footer_icons">
+                <figure class="menu__icons-container">
+                    <img class="menu__icon" src="https://img.icons8.com/?size=100&id=pWxEvv81GRVE&format=png&color=000000" alt="Icono 1">
+                    <img class="menu__icon" src="https://img.icons8.com/?size=100&id=pWxEvv81GRVE&format=png&color=000000" alt="Icono 2">
+                    <img class="menu__icon" src="https://img.icons8.com/?size=100&id=pWxEvv81GRVE&format=png&color=000000" alt="Icono 3">
+                </figure>
+                <h1 class="menu_title" >AluraGeek</h1>
+                <h3>Desarrollado por: Yesid Gomez 2024</h3>
+            </div>
+
+         </footer>
+         <script type="module" src="js/controllers/main.js"></script>
+
+
+</body>
+</html>

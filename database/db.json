@@ -1,0 +1,23 @@
+{
+    "products": [
+        {
+        "name": "Gundam 001",
+        "price": "45",
+        "image": "https://media.spdigital.cl/thumbnails/products/6aol7956_3f34d3db_thumbnail_256.jpg",
+        "id": 1
+        },
+        {
+        "name": "Gundam 002",
+        "price": "50",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fopenart.ai%2Fcommunity%2FFdz0xECVcIjYlhJ5xshc&psig=AOvVaw2aM93mAhWnj8Q-TeZ6MFxj&ust=1720888874751000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODwjeP4oYcDFQAAAAAdAAAAABAK",
+        "id": 2
+        },
+        {
+            "name": "Gundam 003",
+            "price": "50",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.spdigital.cl%2Frg-1144-gundam%2F&psig=AOvVaw2aM93mAhWnj8Q-TeZ6MFxj&ust=1720888874751000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODwjeP4oYcDFQAAAAAdAAAAABAP",
+            "id": 3
+            }
+
+    ]
+}       
